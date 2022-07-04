@@ -8,17 +8,22 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .oranger-color {
     color: orange;
 }
 
-section {
+.flexabel-container {
     display: flex;
 }
 
 .half-width {
     width: 50%;
     padding-left: 50px;
+    margin-bottom: 100px;
 }
 
 .half-width img {
@@ -38,7 +43,6 @@ section {
 .heder-top {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
 }
 
 .dream {
@@ -49,4 +53,27 @@ section {
 
 .dream-para {
     padding-right: 120px;
+}
+
+.experiences-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px grey;
+    padding-left: 20px;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.border-color-left-item {
+    border-left: 10px solid orangered;
+}
+
+.border-color-right-item {
+    border-left: 10px solid blue;
 }
